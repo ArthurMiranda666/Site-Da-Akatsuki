@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    text-decoration: none;
+}
+
+
+#Fotos {
+    background-image: url('https://criticalhits.com.br/wp-content/uploads/2018/04/akatsuki-01.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    grid-template-columns: repeat(3, 1fr);
+    float: right;
+    margin-top: 1px;
+   
+}
+
+#imagem {
+    background-image: url('https://i.pinimg.com/originals/c0/c5/22/c0c522669367120a2ab0cc544a098e63.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-direction: column;
+    float: right;
+    margin-top: 1px;
+   
+    
+}
+
+#imagemdois  {
+    background-image: url('https://i1.sndcdn.com/artworks-zcztYiWm25IuL3xE-ZwhEAw-t500x500.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-direction: column;
+    float: right;
+    margin-top: 1px;
+}
+
+#Fotostres {
+    background-image: url('https://cdn.europosters.eu/image/1300/posters/naruto-akatsuki-i97594.jpg');
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-direction: column;
+    float: right;
+    margin-top: 1px;
+}
+
